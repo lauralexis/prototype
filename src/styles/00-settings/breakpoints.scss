@@ -1,0 +1,26 @@
+// Breakpoints
+$breakpoint-tablet: 49rem; // 784px
+$breakpoint-laptop: 75rem; // 1200px
+$breakpoint-desktop: 87rem; // 1392px
+
+// Media Queries
+@mixin MQ($canvas) {
+
+  @if $canvas == tablet {
+    @media only screen and (min-width: $breakpoint-tablet) {
+      @content;
+    }
+  }
+
+  @else if $canvas == laptop {
+    @media only screen and (min-width: $breakpoint-laptop) {
+      @content;
+    }
+  }
+
+  @else if $canvas == desktop {
+    @media only screen and (min-width: $breakpoint-desktop) {
+      @content;
+    }
+  }
+}
