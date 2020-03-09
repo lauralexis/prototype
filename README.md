@@ -1,7 +1,8 @@
 ## About
-This project is the UX design technology team's first prototyping environment. The project enables designers to prototype in code.
+This project is the UX design team's first prototyping environment for our first design technologist.
 
-The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). [Storybook for React](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/) runs alongside the app, for UI component development.
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Storybook for React](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/) runs alongside the app, for UI component design.
 
 The project customizes [Storybook’s webpack setup](https://storybook.js.org/docs/configurations/custom-webpack-config/) to add [SASS](https://sass-lang.com/) support.
 
@@ -14,40 +15,40 @@ In the project directory, you can run:
 
 ### `yarn run storybook`
 
-Starts the component explorer in the development mode.<br />
+Starts the component explorer in the development mode.
 Open [http://localhost:9009](http://localhost:9009) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `yarn build-storybook`
 
-Builds a static Storybook in the `storybook-static` folder.<br />
+Builds a static Storybook in the `storybook-static` folder.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.
 Storybook is ready to be deployed!
 
 See the section about [deployment](https://www.learnstorybook.com/intro-to-storybook/react/en/deploy/) for more information.
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
