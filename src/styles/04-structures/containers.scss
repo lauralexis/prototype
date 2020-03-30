@@ -1,0 +1,57 @@
+@mixin margined {
+  margin: $spacing-none;
+
+  @include at-breakpoint($key-breakpoint-tablet) {
+    margin: $spacing-standard;
+  }
+}
+
+@mixin padded {
+  padding: $spacing-mini;
+
+  @include at-breakpoint($key-breakpoint-tablet) {
+    padding: $spacing-standard;
+  }
+}
+
+.qm-l-container {
+
+  margin: 0;
+  padding: 0;
+
+  &--margined {
+    @include margined();
+  }
+
+  &--padded {
+    @include padded();
+  }
+
+  &--margined-padded {
+    @include margined();
+    @include padded();
+  }
+
+  &--maxw {
+    margin: 0;
+    max-width: $max-width--including-margins;
+    padding: 0;
+
+    &--margined {
+      @include margined();
+      max-width: $max-width;
+    }
+
+    &--padded {
+      @include padded();
+      max-width: $max-width--including-margins;
+    }
+
+    &--margined-padded {
+      @include margined();
+      @include padded();
+      max-width: $max-width;
+    }
+
+  }
+}

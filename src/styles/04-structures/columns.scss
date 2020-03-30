@@ -1,0 +1,40 @@
+// Default
+
+@for $col from 1 through $columns {
+  .qm-l-col-#{$col} {
+    grid-column-end: span $col;
+  }
+
+}
+
+// Tablet
+
+@include at-breakpoint($key-breakpoint-tablet) {
+  @for $col from 1 through $columns {
+    .qm-l-col-tablet-#{$col} {
+      grid-column-end: span $col;
+    }
+  }
+}
+
+// For Laptop
+
+@include at-breakpoint($key-breakpoint-laptop) {
+  @for $col from 1 through $columns {
+    .qm-l-col-laptop-#{$col} {
+      grid-column-end: span $col;
+    }
+  }
+
+}
+
+// For Desktop
+
+@include at-breakpoint($key-breakpoint-desktop) {
+  @for $col from 1 through $columns {
+    .qm-l-col-desktop-#{$col} {
+      grid-column-end: span $col;
+    }
+  }
+
+}

@@ -3,24 +3,41 @@ $breakpoint-tablet: 49rem; // 784px
 $breakpoint-laptop: 75rem; // 1200px
 $breakpoint-desktop: 87rem; // 1392px
 
+$key-breakpoint-tablet: --breakpoint-tablet;
+$key-breakpoint-laptop: --breakpoint-laptop;
+$key-breakpoint-desktop: --breakpoint-desktop;
+
+$breakpoints: (
+  $key-breakpoint-tablet: $breakpoint-tablet,
+  $key-breakpoint-laptop: $breakpoint-laptop,
+  $key-breakpoint-desktop: $breakpoint-desktop
+);
+
 // Media Queries
-@mixin MQ($canvas) {
 
-  @if $canvas == tablet {
-    @media only screen and (min-width: $breakpoint-tablet) {
-      @content;
-    }
+@function get-breakpoint($key) {
+  @if map-has-key($breakpoints, $key) {
+    @return map-get($breakpoints, $key);
   }
 
-  @else if $canvas == laptop {
-    @media only screen and (min-width: $breakpoint-laptop) {
-      @content;
-    }
-  }
+  @error 'Unknown `#{$key}` in standard breakpoint map.';
+  @return null;
+}
 
-  @else if $canvas == desktop {
-    @media only screen and (min-width: $breakpoint-desktop) {
-      @content;
-    }
+@mixin media-min($point) {
+  @media only screen and (min-width: $point) {
+    @content;
+  }
+}
+
+@mixin media-min-and-height($point, $height) {
+  @media only screen and (min-height: $height) and (min-width: $point) {
+    @content;
+  }
+}
+
+@mixin at-breakpoint($key) {
+  @include media-min(get-breakpoint($key)) {
+    @content;
   }
 }

@@ -1,0 +1,39 @@
+@mixin fluid-grid {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-column-gap: $gutter;
+  grid-row-gap: $gutter;
+}
+
+.qm-l-grid {
+  @include fluid-grid;
+}
+
+.qm-l-subgrid {
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+// Tablet
+
+@include at-breakpoint($key-breakpoint-tablet) {
+  .qm-l-grid-tablet {
+    @include fluid-grid;
+  }
+}
+
+// For Laptop
+
+@include at-breakpoint($key-breakpoint-laptop) {
+  .qm-l-grid-laptop {
+    @include fluid-grid;
+  }
+}
+
+// For Desktop
+
+@include at-breakpoint($key-breakpoint-desktop) {
+  .qm-l-grid-desktop {
+    @include fluid-grid;
+  }
+}

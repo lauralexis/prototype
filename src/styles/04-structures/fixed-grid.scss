@@ -1,0 +1,34 @@
+@mixin fixed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $sizing-standard);
+  grid-column-gap: $gutter;
+  grid-row-gap: $gutter;
+}
+
+.qm-l-fixed-grid {
+  @include fixed-grid;
+}
+
+// Tablet
+
+@include at-breakpoint($key-breakpoint-tablet) {
+  .qm-l-fixed-grid-tablet {
+    @include fixed-grid;
+  }
+}
+
+// For Laptop
+
+@include at-breakpoint($key-breakpoint-laptop) {
+  .qm-l-fixed-grid-laptop {
+    @include fixed-grid;
+  }
+}
+
+// For Desktop
+
+@include at-breakpoint($key-breakpoint-desktop) {
+  .qm-l-fixed-grid-desktop {
+    @include fixed-grid;
+  }
+}

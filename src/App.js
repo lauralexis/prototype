@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
+import {ReactComponent as CaretSVG} from './icons/caret.svg';
 
 function App() {
   return (
     <header>
-      <img src={logo} alt="logo" />
-      <p>
-        Welcome to our prototyping environment!
-      </p>
+      <h1> Welcome to our prototyping environment! </h1>
     </header>
   );
 }

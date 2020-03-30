@@ -1,5 +1,10 @@
 $spacing-none: 0;
 $spacing-mini: 0.5rem;
 $spacing-standard: 1rem;
-$max-width--margined: 97rem;
-$max-width: 99rem;
+$max-width: 97rem;
+$max-width--including-margins: 1680px;
+
+$sizing-standard: 5rem;
+
+$gutter: 1rem;
+$columns: 16;
