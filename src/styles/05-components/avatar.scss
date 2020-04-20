@@ -1,0 +1,15 @@
+.user-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 1.125rem;
+  background-color: $coral-02;
+
+  &__initials {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
