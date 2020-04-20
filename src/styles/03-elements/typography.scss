@@ -5,6 +5,31 @@
   line-height: 1.35em;
 }
 
+@mixin heading-1 {
+  @include heading;
+  font-size: 1.75rem;
+}
+
+@mixin heading-2 {
+  @include heading;
+  font-size: 1.5625rem;
+}
+
+@mixin heading-3 {
+  @include heading;
+  font-size: 1.4375rem;
+}
+
+@mixin heading-4 {
+  @include heading;
+  font-size: 1.25rem;
+}
+
+@mixin heading-5 {
+  @include heading;
+  font-size: 1.125rem;
+}
+
 h1, h2, h3, h4, h5 {
   @include heading;
   margin: $spacing-none;
