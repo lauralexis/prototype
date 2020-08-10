@@ -119,38 +119,46 @@ const cardsColorData = [
 const headerColorData = [
 {constant: `$color-background-masthead`, lightHex: `#033D58`, lightRgba: `rgb(3, 61, 88)`, darkHex: `#033D58`, darkRgba: `rgb(3, 61, 88)`, use: `Background color for the masthead`},
 {constant: `$color-background-masthead-hover`, lightHex: `#4B778B`, lightRgba: `rgb(75, 119, 139)`, darkHex: `#4B778B`, darkRgba: `rgb(75, 119, 139)`, use: `Background color for the masthead on hover`},
-{constant: `$color-background-servicenav-hover`, lightHex: `#B6E5E2 `, lightRgba: `rgb(182, 229, 226)`, darkHex: `#666666`, darkRgba: `rgb(102, 102, 102)`, use: `Background color for the service navigation on hover`},
+{constant: `$color-background-servicenav-hover`, lightHex: `#B6E5E2 `, lightRgba: `rgb(182, 229, 226)`, darkHex: `#244A4F`, darkRgba: `rgb(36, 74, 79)`, use: `Background color for the service navigation on hover`},
 {constant: `$color-foreground-masthead`, lightHex: `#FFFFFF`, lightRgba: `rgb(255, 255, 255)`, darkHex: `#FFFFFF`, darkRgba: `rgb(255, 255, 255)`, use: `Color of the foreground items in the masthead`},
 ];
 
 const bubblesColorData = [
-  {},
-  {},
+  {constant: `$color-background-bubble`, lightHex: `#FFFFFF`, lightRgba: `rgb(255, 255, 255)`, darkHex: `#404040`, darkRgba: `rgb(64, 64, 64)`, use: `Background color for help bubbles`}
 ];
 
 const inputsColorData = [
-  {},
-  {},
+  {constant: `$color-background-input`, lightHex: `#FFFFFF`, lightRgba: `rgb(255, 255, 255)`, darkHex: `#262626`, darkRgba: `rgb(38, 38, 38)`, use: `Background of input fields`},
+  {constant: `$color-background-input-disabled`, lightHex: `#E5E5E5`, lightRgba: `rgb(229, 229, 229)`, darkHex: `#404040`, darkRgba: `rgb(64, 64, 64)`, use: `Background of disabled input fields`},
+  {constant: `$color-border-input`, lightHex: `#808080`, lightRgba: `rgb(128, 128, 128)`, darkHex: `#808080`, darkRgba: `rgb(128, 128, 128)`, use: `Border on input fields, especially text fields`},
+  {constant: `$color-font-input`, lightHex: `#262626`, lightRgba: `rgb(38, 38, 38)`, darkHex: `#FFFFFF`, darkRgba: `rgb(255, 255, 255)`, use: `Standard font in inputs`},
+  {constant: `$color-font-input-disabled`, lightHex: `#666666`, lightRgba: `rgb(102, 102, 102)`, darkHex: `#ABABAB`, darkRgba: `rgb(171, 171, 171)`, use: `Color for text in disabled inputs`},
+  {constant: `$color-font-placeholder`, lightHex: `#666666`, lightRgba: `rgb(102, 102, 102)`, darkHex: `#ABABAB`, darkRgba: `rgb(171, 171, 171)`, use: `Placeholder text in text inputs`},
 ];
 
 const menusColorData = [
-  {},
-  {},
+  {constant: `$color-background-menu`, lightHex: `#FFFFFF`, lightRgba: `rgb(255, 255, 255)`, darkHex: `#404040`, darkRgba: `rgb(64, 64, 64)`, use: `Background color for menus`},
+  {constant: `$color-background-menu-hover`, lightHex: `#B6E5E2 `, lightRgba: `rgb(182, 229, 226)`, darkHex: `#244A4F`, darkRgba: `rgb(36, 74, 79)`, use: `Hover state background for menu items`},
+  {constant: `$color-background-menu-selected`, lightHex: `#127B87`, lightRgba: `rgb(18, 123, 135)`, darkHex: `#4C98A2`, darkRgba: `rgb(76, 152, 162)`, use: `Selected state background for menu items`},
 ];
 
 const tablesColorData = [
-  {},
-  {},
+  {constant: `$color-background-table`, lightHex: `#FFFFFF`, lightRgba: `rgb(255, 255, 255)`, darkHex: `#0A0A0A`, darkRgba: `rgb(10, 10, 10)`, use: `Background color for tables`},
+  {constant: `$color-background-table-header`, lightHex: `#E5E5E5`, lightRgba: `rgb(229, 229, 229)`, darkHex: `#404040`, darkRgba: `rgb(64, 64, 64)`, use: `Backround color for the header of a table`},
+  {constant: `$color-background-table-row-hover`, lightHex: `#F5F5F5`, lightRgba: `rgb(245, 245, 245)`, darkHex: `#262626`, darkRgba: `rgb(38, 38, 38)`, use: `Background color for a table row on hover `},
+  {constant: `$color-outline-table-row-hover`, lightHex: `#262626`, lightRgba: `rgb(38, 38, 38)`, darkHex: `#FFFFFF`, darkRgba: `rgb(255, 255, 255)`, use: `Outline color for a table row on hover`},
 ];
 
 const tabsColorData = [
-  {},
-  {},
+  {constant: `$color-font-tab-disabled`, lightHex: `#666666`, lightRgba: `rgb(102, 102, 102)`, darkHex: `#ABABAB`, darkRgba: `rgb(171, 171, 171)`, use: `Color for a disabled tab`}
 ];
 
 const toggleColorData = [
-  {},
-  {},
+  {constant: `$color-background-toggle`, lightHex: `#127B87`, lightRgba: `rgb(18, 123, 135)`, darkHex: `#127B87`, darkRgba: `rgb(18, 123, 135)`, use: `Background of toggle in the on position`},
+  {constant: `$color-background-toggle-deselected`, lightHex: `#808080`, lightRgba: `rgb(128, 128, 128)`, darkHex: `#808080`, darkRgba: `rgb(128, 128, 128)`, use: `Background of toggle in the off position`},
+  {constant: `$color-background-toggle-disabled`, lightHex: `#E5E5E5`, lightRgba: `rgb(229, 229, 229)`, darkHex: `#404040`, darkRgba: `rgb(64, 64, 64)`, use: `Background of disabled toggle`},
+  {constant: `$color-foreground-toggle`, lightHex: `#FFFFFF`, lightRgba: `rgb(255, 255, 255)`, darkHex: `#FFFFFF`, darkRgba: `rgb(255, 255, 255)`, use: `Foreground color of toggle in on and off positions`},
+  {constant: `$color-foreground-toggle-disabled`, lightHex: `#808080`, lightRgba: `rgb(128, 128, 128)`, darkHex: `#949494`, darkRgba: `rgb(148, 148, 148)`, use: `Foreground color of disabled toggle`},
 ];
 
 export const Background = () => (
