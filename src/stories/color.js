@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Color({ color: { component, colorItems }}) {
   return (
-    <table width="100%" className="boomi_table_common approved_colors" aria-labelledby={`${component}-header`}>
-      <thead>
+    <table className="boomi_table_common approved_colors" style= {{tableLayout: 'fixed', width: '100%'}} aria-labelledby={`${component}-header`}>
+      <thead style= {{textAlign: 'left'}}>
         <tr>
-          <th>Constant**</th>
-          <th>Light theme swatch <br/> Hex code <br/> RGB/RGBA code*</th>
-          <th>Dark theme swatch <br/> Hex code <br/> RGB/RGBA code*</th>
-          <th>Acceptable Uses</th>
+          <th style= {{width: '20%'}}>Constant**</th>
+          <th style= {{width: '15%'}}>Light Theme Color <br/> Hex Code <br/> RGB/RGBA Code*</th>
+          <th style={{width: '15%'}}>Dark Theme Color <br/> Hex Code <br/> RGB/RGBA Code*</th>
+          <th style={{width: '50%'}}>Acceptable Uses</th>
         </tr>
       </thead>
       <tbody>
@@ -16,12 +16,12 @@ export default function Color({ color: { component, colorItems }}) {
           <tr>
             <td>{item.constant}</td>
             <td>
-              <div style= {{backgroundColor: item.lightRgba, width: '3rem', height: '3rem'}}></div>
+              <div style= {{backgroundColor: item.lightRgba, width: '6rem', height: '3rem', border: '1px solid #949494'}}></div>
               <p>{item.lightHex}</p>
               <p>{item.lightRgba}</p>
             </td>
             <td>
-              <div style= {{backgroundColor: item.darkRgba, width: '3rem', height: '3rem'}}></div>
+              <div style= {{backgroundColor: item.darkRgba, width: '6rem', height: '3rem'}}></div>
               <p>{item.darkHex}</p>
               <p>{item.darkRgba}</p>
             </td>
