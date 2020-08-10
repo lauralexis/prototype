@@ -23,7 +23,7 @@ export default function Color({ color: { component, colorItems }}) {
                 <p>{item.lightRgba}</p>
               </td>
               <td>
-                <div style= {{backgroundColor: item.darkRgba, width: '6rem', height: '3rem'}}></div>
+                <div style= {{backgroundColor: item.darkRgba, width: '6rem', height: '3rem', border: '1px solid #949494'}}></div>
                 <p>{item.darkHex}</p>
                 <p>{item.darkRgba}</p>
               </td>
