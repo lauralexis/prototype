@@ -6,9 +6,9 @@ export default function Color({ color: { component, colorItems }}) {
       <thead>
         <tr>
           <th>Constant**</th>
-          <th style= {{width: '30%'}}>Light theme swatch <br/> Hex code <br/> RGB/RGBA code*</th>
-          <th style={{width: '30%'}}>Dark theme swatch <br/> Hex code <br/> RGB/RGBA code*</th>
-          <th style={{width: '40%'}}>Acceptable Uses</th>
+          <th>Light theme swatch <br/> Hex code <br/> RGB/RGBA code*</th>
+          <th>Dark theme swatch <br/> Hex code <br/> RGB/RGBA code*</th>
+          <th>Acceptable Uses</th>
         </tr>
       </thead>
       <tbody>
