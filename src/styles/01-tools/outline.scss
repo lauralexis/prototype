@@ -1,0 +1,23 @@
+/* ========================================================================
+   # FOCUS MIXINS
+   ======================================================================== */
+
+/*
+ * Defines various mixins to assist in focus and hover state outlines
+ */
+@mixin focus-offset-outline($size, $offset, $colorkey) {
+  /* Intentionally not using the color mixin here. IE does not support vars so it should ignore
+       both the outline and outline-offset declarations.
+   */
+  outline: $size solid $colorkey;
+  outline-offset: $offset;
+}
+
+
+@mixin standard-inset-focus($colorkey) {
+  @include focus-offset-outline(0.0625em, -0.25em, $colorkey);
+}
+
+@mixin standard-solid-focus($colorkey) {
+  outline: 0.0625rem solid $colorkey;
+}

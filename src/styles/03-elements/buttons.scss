@@ -1,0 +1,49 @@
+@mixin style-button() {
+  background-color: $white;
+  border: 0.0625em solid;
+  border-color: $interactive-1;
+  border-radius: 0.125em;
+  color: $interactive-1;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin: 0; /* Some browsers add their own margins to buttons */
+  min-width: 6em;
+  padding: 0.625em 1em;
+  transition: background-color 200ms ease, color 200ms ease, outline 50ms ease, outline-offset 50ms ease, box-shadow 50ms ease;
+}
+
+@mixin style-button-disabled() {
+  background-color: $background--disabled;
+  border-color: $background--disabled;
+  box-shadow: none;
+  color: $text--secondary;
+  cursor: not-allowed;
+
+  & svg {
+    color: $foreground--disabled;
+  }
+}
+
+
+button {
+  @include style-button();
+
+  &:hover {
+    background-color: $interactive-4;
+    border-color: $interactive-1;
+    color: $text;
+  }
+
+  &:focus {
+    background-color: $interactive-4;
+    @include standard-inset-focus($foreground);
+    color: $text;
+  }
+
+  &[disabled], &.disabled {
+    @include style-button-disabled();
+  }
+}
