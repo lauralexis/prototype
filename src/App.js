@@ -11,20 +11,20 @@ function App() {
             <nav class="navbar navbar-default">
               <div class=" container">
                 <div class="navbar-header">
-                  <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#f9c018f7-5a59-4858-924a-e958c154dae4">
+                  <button class="navbar-toggle collapsed" data-toggle="collapse">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
                 </div>
-              <div class="collapse navbar-collapse" id="f9c018f7-5a59-4858-924a-e958c154dae4">
+              <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
-              <li class="active top-nav-element"><a href="#" id="a9b17b96-ebd7-d49a-f04d-9ed2f88febc4">Home</a></li>
-              <li class="top-nav-element"><a href="#" id="d996a044-dff3-8202-0e9d-046eae619e80">Payment Details</a></li>
-              <li class="top-nav-element"><a href="#" id="aec9a9aa-0d30-a176-3cfe-24beabdd553c">Current Cycle Usage</a></li>
-              <li class="top-nav-element"><a href="#" id="5707634b-598b-8216-c75d-6e0015244578">Billing History</a></li>
-              <li class="top-nav-element"><a href="#" id="779e9597-80b0-7e7c-279d-7d9145ecee12">Deactivate</a></li>
+              <li class="active top-nav-element"><a href="#">Home</a></li>
+              <li class="top-nav-element"><a href="#">Payment Details</a></li>
+              <li class="top-nav-element"><a href="#">Current Cycle Usage</a></li>
+              <li class="top-nav-element"><a href="#">Billing History</a></li>
+              <li class="top-nav-element"><a href="#">Deactivate</a></li>
               </ul>
               </div>
               </div>

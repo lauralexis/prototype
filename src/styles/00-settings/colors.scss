@@ -1,44 +1,102 @@
 // Palette
-$gray-00: #FFFFFF;
-$gray-01: #F5F5F5;
-$gray-02: #E5E5E5;
-$gray-03: #CCCCCC;
-$gray-04: #949494;
-$gray-05: #808080;
-$gray-06: #666666;
-$gray-07: #595959;
-$gray-08: #272727;
-$gray-09: #212121;
-$gray-10: #121212;
+
+// Gray
+$white: #FFFFFF;
+$gray-1: #F5F5F5;
+$gray-2: #E5E5E5;
+$gray-3: #ABABAB;
+$gray-4: #949494;
+$gray-5: #808080;
+$gray-6: #666666;
+$gray-7: #404040;
+$gray-8: #262626;
+$gray-9: #0A0A0A;
+
+// Transparencies
+$white-15-percent: rgba(255,255,255, 0.15);
+$black-15-percent: rgba(0, 0, 0, 0.15);
+$black-40-percent: rgba(0, 0, 0, 0.4);
+$black-50-percent: rgba(0, 0, 0, 0.50);
+$black-75-percent:	rgba(0, 0, 0, 0.75);
+$navy-100-66-percent:	rgba(189, 203, 209, 0.66);
+$corporate-navy-50-percent: rgba(3, 61, 88, 0.5);
+
+// Red
+$red-100:	#F9B8BE;
+$red-200:	#FA8D9A;
+$red-300:	#FA4B6D;
+$red-400:	#C73D58;
+$red-800:	#8A3243;
+
+// Coral
+$coral-200:	#FF8F7B;
+$coral-300:	#D86D5A;
+$coral-400:	#B35D4E;
+
+// Yellow
+$yellow-50: #FAF4E5;
+$yellow-100: #F4C074;
+$yellow-200: #EFA037;
+$yellow-300: #D1751A;
+$yellow-400: #A26125;
+$yellow-1000: #432D1A;
+
+// Green
+$green-100:	#9BD5B9;
+$green-300:	#0EA076;
+$green-400:	#168359;
+$green-800:	#235A41;
+
+// Aqua
+$aqua-100: #B6E5E2;
+$aqua-200: #56BCBD;
+$aqua-300: #4C98A2;
+$aqua-400: #127B87;
+$aqua-800: #244A4F;
+
+// Navy
+$navy-100: #BDCBD1;
+$navy-300: #6F939F;
+$navy-400: #4B778B;
+$corporate-navy: #033D58;
+
+// Blue
+$blue-100: #9DCFF0;
+$blue-200: #67ABE1;
+$blue-300: #3392DB;
+$blue-400: #1771C4;
+$blue-800: #135097;
+
+// Purple
+$purple-200: #B49BC9;
+$purple-400: #8765A6;
+
+// Mulberry
+$mulberry-300: #C86CB9;
+$mulberry-400: #9D559B;
 
 
-$navy-brand: #033D58;
-$navy-05: #426e82;
+// Function
+$background__root: $gray-1;
+$background__container: $white;
+$background__nested-container: $gray-2;
+$background--disabled: $gray-2;
 
-$coral-01: #ffb7aa;
-$coral-02: #ff8f7b;
-$coral-03: #dc6c58;
+$border: $gray-3;
+$border--secondary: $gray-5;
 
-$aqua-01: #b7e9e7;
+$foreground: $gray-8;
+$foreground--inverse: $white;
+$foreground--disabled: $gray-5;
 
+$text: $gray-8;
+$text--inverse: white;
+$text--secondary:	$gray-6;
 
-// $gray-00: #FFFFFF; hsl(0, 0%, 100%)
-// $gray-01: #F5F5F5; hsl(0, 0%, 96%)
-// $gray-02: #E5E5E5; hsl(0, 0%, 90%)
-// $gray-03: #CCCCCC; hsl(0, 0%, 80%)
-// $gray-04: #949494; hsl(0, 0%, 58%)
-// $gray-05: #808080; hsl(0, 0%, 50%)
-// $gray-06: #666666; hsl(0, 0%, 40%)
-// $gray-07: #595959; hsl(0, 0%, 35%)
-// $gray-08: #272727; hsl(0, 0%, 15%)
-// $gray-09: #212121; hsl(0, 0%, 13%)
-// $gray-10: #121212; hsl(0, 0%, 7%)
-
-
-$UI-background-01: $gray-00;
-$UI-background-02: $gray-02;
-$UI-background-01-inverse: $gray-10;
-$UI-background-02-inverse: $gray-08;
-$text-01: $gray-09;
-$text-02: $gray-07;
-$text-01-inverse: $gray-00;
+// Interaction & Brand
+$interactive-1: $corporate-navy;
+$interactive-2: $navy-400;
+$interactive-3: $aqua-400;
+$interactive-4: $aqua-100;
+$interactive-5: $navy-100;
+$interactive-6: $gray-1;
