@@ -71,7 +71,48 @@ const grayColorData = [
 ];
 
 const transparenciesColorData = [
-
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(255,255,255, 0.15)`,
+    lightConstants: [`$color-background`, `$color-border-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-background-button-active`, `$color-font-button-on-inverse-bg`, `$color-foreground-masthead`, `$color-background-bubble`, `$color-background-input`, `$color-background-menu`, `$color-background-table`, `$color-foreground-toggle`],
+    darkConstants: [`Constant 3`, `Constant 4`],
+  },
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(0, 0, 0, 0.15)`,
+    lightConstants: [`$color-background`, `$color-border-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-background-button-active`, `$color-font-button-on-inverse-bg`, `$color-foreground-masthead`, `$color-background-bubble`, `$color-background-input`, `$color-background-menu`, `$color-background-table`, `$color-foreground-toggle`],
+    darkConstants: [`Constant 3`, `Constant 4`],
+  },
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(0, 0, 0, 0.4)`,
+    lightConstants: [`$color-background`, `$color-border-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-background-button-active`, `$color-font-button-on-inverse-bg`, `$color-foreground-masthead`, `$color-background-bubble`, `$color-background-input`, `$color-background-menu`, `$color-background-table`, `$color-foreground-toggle`],
+    darkConstants: [`Constant 3`, `Constant 4`],
+  },
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(0, 0, 0, 0.50)`,
+    lightConstants: [`$color-background`, `$color-border-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-background-button-active`, `$color-font-button-on-inverse-bg`, `$color-foreground-masthead`, `$color-background-bubble`, `$color-background-input`, `$color-background-menu`, `$color-background-table`, `$color-foreground-toggle`],
+    darkConstants: [`Constant 3`, `Constant 4`],
+  },
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(0, 0, 0, 0.75)`,
+    lightConstants: [`$color-background`, `$color-border-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-background-button-active`, `$color-font-button-on-inverse-bg`, `$color-foreground-masthead`, `$color-background-bubble`, `$color-background-input`, `$color-background-menu`, `$color-background-table`, `$color-foreground-toggle`],
+    darkConstants: [`Constant 3`, `Constant 4`],
+  },
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(189, 203, 209, 0.66)`,
+    lightConstants: [`$color-background`, `$color-border-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-background-button-active`, `$color-font-button-on-inverse-bg`, `$color-foreground-masthead`, `$color-background-bubble`, `$color-background-input`, `$color-background-menu`, `$color-background-table`, `$color-foreground-toggle`],
+    darkConstants: [`Constant 3`, `Constant 4`],
+  },
+  {
+    hex: `Not Applicable`,
+    rgba: `rgba(3, 61, 88, 0.5)`,
+    lightConstants: [`$color-scrim`],
+    darkConstants: [`Not Applicable`],
+  },
 ];
 
 const redColorData = [
