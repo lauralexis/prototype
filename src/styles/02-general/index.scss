@@ -1,3 +1,8 @@
+
+/* ==========================================================================
+# GENERAL
+========================================================================== */
+
 * {
   box-sizing: border-box;
 }
@@ -9,4 +14,53 @@ html {
   font-family: 'Open Sans', sans-serif;
   color: $text;
   background-color: $background__root;
+}
+
+/* ==========================================================================
+# RESET
+========================================================================== */
+
+/* Reset margin and padding for most elements */
+
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset margin for input and text areas */
+
+input, textarea {
+  margin: 0;
+}
+
+/* Set standard margins for headings and body copy */
+
+h1, h2, h3, h4, h5, legend, p {
+  margin: 0 0 1.25rem 0;
+}
+
+/* Set standard margins for semantic structures */
+
+header {
+  margin: 0 0 1.875rem 0;
+}
+
+section {
+  margin: 0 0 1.875rem 0;
+}
+
+footer {
+  margin: 0;
+}
+
+/* Reset display on semantic html elements because IE is dumb */
+
+footer, header, section, main {
+  display: block;
 }
