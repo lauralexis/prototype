@@ -8,6 +8,14 @@ function App() {
       <div class="mw-bs flow-container">
         <div class="main-container">
           <div class="main-container-inner">
+            <header>
+              <a href="/Home.html">
+                <div>
+                  <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDAgNDAiPgogICAgICAgIDxwYXRoIAogICAgICAgICAgICAgICAgZD0iTTE5LjIgMTQuNWMtMy4zIDAtNi40IDEuMS04LjggMy4zVjEuNGMwLS4zLS4zLS42LS42LS42LS4xIDAtLjMgMC0uMy4xTDUuNiAzLjFjLS4xIDAtLjEuMS0uMS4zdjM0LjhjMCAuMy4zLjYuNi42SDEwYy4zIDAgLjYtLjMuNi0uNnYtMi4zYzIuMyAyLjIgNS41IDMuNSA4LjggMy4zIDcuMiAwIDEyLjctNS40IDEyLjctMTIuNHMtNS43LTEyLjMtMTIuOS0xMi4zbTAgMjAuMWMtNC4xLjEtNy42LTMuMi03LjctNy41di0uNGMtLjEtNC4xIDMuMi03LjcgNy4zLTcuN2guNGM0LjEtLjEgNy42IDMuMiA3LjcgNy41di40Yy4xIDQuMS0zLjIgNy43LTcuMyA3LjdoLS40IiAKICAgICAgICAgICAgICAgIHN0eWxlPSJmaWxsOiNGRkZGRkYiLz4KICAgICAgICA8cGF0aCAKICAgICAgICAgICAgICAgIGQ9Ik0zNC41IDExLjRjMCAxLjctMS40IDMtMyAzcy0zLTEuNC0zLTMgMS40LTMgMy0zYzEuOCAwIDMgMS40IDMgMyIgCiAgICAgICAgICAgICAgICBzdHlsZT0iZmlsbDojRkY5RDhDIi8+Cjwvc3ZnPgo=" alt="Boomi AtomSphere Home"></img>
+                </div>
+              </a>
+              <button>Sign Out</button>
+            </header>
             <nav class="navbar navbar-default">
               <div class=" container">
                 <div class="navbar-header">
