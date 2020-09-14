@@ -13,7 +13,7 @@ const grayColorData = [
     rgba: `rgb(255, 255, 255)`,
     name: `White`,
     nickname: ``,
-    lightConstants: [`$color-background`, `$color-background-button-active`, `$color-background-input`, `$color-background-table`, `$color-background-bubble`, `$color-background-menu`, `$color-border-on-inverse-bg`, `$color-font-button-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-foreground-masthead`, `$color-foreground-toggle`],
+    lightConstants: [`$color-background`, `$color-background-button-active`, `$color-background-input`, `$color-background-bubble`, `$color-background-menu`, `$color-border-on-inverse-bg`, `$color-font-button-on-inverse-bg`, `$color-font-on-inverse-bg`, `$color-icon-on-inverse-bg`, `$color-outline-focus-on-inverse-bg`, `$color-foreground-masthead`, `$color-foreground-toggle`],
     darkConstants: [`$color-font`, `$color-font-header`, `$color-font-input`, `$color-outline`, `$color-border-table-row-hover`, `$color-foreground-masthead`, `$color-foreground-toggle`],
   },
   {
@@ -86,7 +86,7 @@ const grayColorData = [
     name: `Gray 90`,
     nickname: `Charcoal`,
     lightConstants: [`$color-font-link-hover`],
-    darkConstants: [`$color-background`, `$color-background-button-active`, `$color-background-input`, `$color-background-table`],
+    darkConstants: [`$color-background`, `$color-background-button-active`, `$color-background-input`],
   },
   {
     hex: `#000000`,
