@@ -1,5 +1,4 @@
 ## About
-This project is the UX design team's first prototyping environment for our first design technologist.
 
 The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 [Storybook for React](https://www.learnstorybook.com/intro-to-storybook/react/en/get-started/) runs alongside the app, for UI component design.
